@@ -25,6 +25,12 @@ bld/
 # Visual Studio 2015 cache/options directory
 .vs/
 
+# Visual Studio Code options directory
+.vscode/
+
+# No-commit folder for misc stuff that shouldn't go into the repo
+no-commit/
+
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
@@ -211,6 +217,10 @@ GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
 
+# Bot config file
+config.json
+config.js
+
 # App Storage
 storage/
 
@@ -223,6 +233,10 @@ tenc
 
 # Plugins Folder
 plugins/*
-!plugins/roll_dice.dbot.js
-!plugins/message_output.dbot.js
-!plugins/request_q.dbot.js
+!plugins/advancedRandom.dbot2.js
+!plugins/rollDice.dbot2.js
+!plugins/help.dbot2.js
+!plugins/welcome.dbot2.js
+!plugins/messageOutput.dbot2.js
+!plugins/requestQ.dbot2.js
+!plugins/credits.dbot2.js
